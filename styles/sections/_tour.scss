@@ -1,0 +1,45 @@
+.section-tour {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/imgs/tour0.png);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .section-tour_content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    .img {
+      width: 584px;
+      height: 369px;
+      object-fit: cover;
+    }
+    .content-text {
+      width: 584px;
+      height: 369px;
+      padding: 10px;
+
+      background: rgba(255, 255, 255, 0.56);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(1px);
+      -webkit-backdrop-filter: blur(1px);
+      border: 1px solid rgba(255, 255, 255, 0.32);
+      .title {
+        color: $primaryColor;
+        font-size: 30px;
+        color: #ffe600;
+        font-weight: 700;
+      }
+      .text {
+        color: $primaryColor;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+      }
+    }
+  }
+}
